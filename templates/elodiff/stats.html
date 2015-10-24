@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+body{
+	margin:auto;
+	width:50%;
+	background-color:#E0E0EB;
+	}
+
+table{
+	padding:10px;
+	border:3px solid black;
+	}
+
+table td{
+	padding:10px;
+	}
+
+</style>
+
+<body>
+
+<img src='static/images/extra/cutewizard.png'>
+<img src='static/images/extra/weirdboy.png'>
+<img src='static/images/extra/cathadoken.gif'>
+<img src='static/images/extra/JFK.png'>
+<img src='static/images/extra/chess-faces.png'>
+<img src='static/images/extra/cat-brown.png'>
+
+    <h1>ELO Difference and In-Game Probability Calculator</h1>
+    
+    <table id='main'>
+    	<tr>
+			<td>
+				<p>White Elo</p>
+				<input type="text" id="whiteElo">
+			</td>
+			<td>
+				<p>Black Elo</p>
+				<input type="text" id="blackElo">
+			</td>
+			<td>
+				<p>Chess24 Engine Score</p>
+				<input type="text" id="engineScore">
+			</td>
+		</tr>
+		<tr>
+			<td>		
+				<button onclick='updateEloWinLossPerc()'>Find W/L</button>
+			</td>
+
+			<td>
+				<button onclick='reverseValues()'>Reverse Values</button>
+			</td>
+			<td>
+				<button onclick='updateEngineScorePerc()'>In-Game %</a>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<u>Win/Loss</u>
+			</td>
+			<td>
+			</td>
+			<td>
+				<u>In-Game Probability</u>
+			</td>
+		</tr>
+		
+
+		<tr>
+			<td>
+				<p id="winloss"></p>
+			</td>
+			<td>
+			</td>
+			<td>
+				{% if cpWhiteProb %}
+				
+				<p>White Percent: {{ cpWhiteProb }}%</p>
+				<p>Black Percent: {{ cpBlackProb }}%</p>
+				
+				{% endif %}
+			
+			</td>
+		</tr>
+	</table>
+<br/>
+
+<img src='static/images/extra/gray-cat.png'>
+<img src='static/images/extra/blue-white-chess.png'>
+<img src='static/images/extra/kitty-rolling.jpg'>
+<img src='static/images/extra/mecha-cat.png'>
+
+</body>
+
+
+<script type="text/javascript">
+
+	function initialize(){
+		var baseURL = window.location.href;
+		var whiteString = 'whiteElo=';
+		var	blackString = 'blackElo=';
+		
+		if (baseURL.indexOf(whiteString) >-1 || baseURL.indexOf(blackString)>-1){
+			var whiteEloStart = baseURL.indexOf(whiteString)+whiteString.length;
+			var whiteEloEnd = baseURL.indexOf('&blackElo');
+			document.getElementById("whiteElo").value = baseURL.substring(whiteEloStart,whiteEloEnd);
+		
+			var blackEloStart = baseURL.indexOf(blackString)+blackString.length;
+			document.getElementById("blackElo").value = baseURL.substring(blackEloStart,baseURL.length);
+			}
+		}
+		
+ 	function updateEngineScorePerc(){
+ 		var baseURL = window.location.href;
+ 		var engineScoreVal = document.getElementById("engineScore").value;
+ 		if (engineScoreVal.indexOf('-') == -1){//if positive engine score
+ 			//if positive value engine score
+ 			baseURL = baseURL.substring(0,baseURL.indexOf("/stats")+6);
+ 			baseURL = baseURL + "?engineScore="+engineScoreVal;
+ 			window.location.href = baseURL;
+ 			}
+ 		else{
+ 			baseURL = baseURL.substring(0,baseURL.indexOf("/stats")+6);
+ 			baseURL = baseURL + "?engineScore="+"m"+engineScoreVal.substring(1,engineScoreVal.length);
+ 			window.location.href = baseURL;
+ 			}
+ 		}
+		
+
+
+	function updateEloWinLossPerc(){
+		var white = document.getElementById("whiteElo").value;
+		var black = document.getElementById("blackElo").value;
+	
+		if(!(isNaN(white)) && !(isNaN(black))){
+			var percentage = (1/(1+Math.exp(-0.33384705-0.00797271*(Number(white)-Number(black))))*100).toFixed(0);
+			document.getElementById("winloss").innerHTML = "<p>White Win: "+percentage+"%</p><p>Black Win: "+((100-percentage).toFixed(0))+"%</p>";
+			} 
+		else{
+			document.getElementById("winloss").innerHTML = "Not valid input. Try positive integers";
+			}
+		}
+	
+	function reverseValues(){
+		var white = document.getElementById("whiteElo").value;
+		var black = document.getElementById("blackElo").value;
+		document.getElementById("whiteElo").value = black;
+		document.getElementById("blackElo").value = white;
+		}
+		
+	initialize();
+	
+</script>
+
+<footer>
+<p><i>by Allen Sarkisyan</i></p>
+<p><i>Contact: programminglinguist@gmail.com</i></p>
+</footer>
+
+</html>
