@@ -1,0 +1,59 @@
+body {
+	margin:0 auto;
+	font-family:helvetica;
+	}
+	
+#bodycontainer {
+	padding:10px;
+	}
+
+table {
+	padding:10px;
+	}
+
+table td {
+	text-align:center;
+	display:block;
+	margin:0 auto;
+	padding:20px;
+	}
+	
+.textbox {
+	margin-bottom:10px;
+	border-radius:3px;
+	padding:5px;
+	border:2px solid #dadada;
+	}
+.textbox:focus {
+	outline:none;
+	border-color:#9ecaed;
+	}
+	
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background-color:#ff5bb0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:4px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+	}
+
+.myButton:hover {
+	background-color:#ef027d;
+	}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+	}

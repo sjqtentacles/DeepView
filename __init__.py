@@ -4,7 +4,7 @@ import re
 import time
 import pickle
 
-cpmodel = pickle.load(open("cp-score-old-model.pkl","rb"))
+cpmodel = pickle.load(open('cp-score-old-model.pkl','rb'))
 
 app = Flask(__name__)
 
@@ -12,25 +12,24 @@ app = Flask(__name__)
 @app.route('/stats')
 @app.route('/stats/<input>')
 def stats(input=None):
-	whiteElo = request.args.get('whiteElo')
-	blackElo = request.args.get('blackElo')
 	engineScore = request.args.get('engineScore')
-		
-	if whiteElo and blackElo:
-		return render_template("elodiff/stats.html")
-	elif engineScore:
+	if engineScore:
 		if str(engineScore)[0]=='m':
 			engineScore = int(str(engineScore[1:]))*-1
 		whiteProb = round(cpmodel.predict(engineScore)[0],2)
 		blackProb = round(1-whiteProb,2)*100
 		whiteProb = whiteProb*100
-		return render_template("elodiff/stats.html", cpWhiteProb = int(whiteProb), cpBlackProb = 100-int(whiteProb))	
+		return render_template('stats.html', cpWhiteProb = int(whiteProb), cpBlackProb = 100-int(whiteProb))	
 	else:
-		return render_template("elodiff/stats.html")
+		return render_template('stats.html')
+		
+@app.route('/about')
+def about():
+	return render_template('about.html')
 	
 @app.route('/')
 def root():
-	return app.send_static_file('index/index.html')
+	return render_template('index.html')
 
 	
 if __name__ == "__main__":

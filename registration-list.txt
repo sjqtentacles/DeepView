@@ -1,0 +1,606 @@
+Caruana, Fabiano
+Nakamura, Hikaru
+So, Wesley
+Yu, Yangyi
+Kamsky, Gata
+Le, Liem
+McShane, Luke
+Robson, Ray
+Najer, Evgeniy
+Bareev, Evgeny
+Shankland, Sam
+Shimanov, Aleksandr
+Akobian, Varuzhan
+Azarov , Sergei
+Zherebukh, Yaroslav
+Nyzhnyk, Illya
+Lenderman, Aleksandr
+Durarbayli, Vasif
+Naroditsky, Daniel
+Macieja, Bartlomiej
+Ortiz Suarez, Isan Reynaldo
+Zhou, Jianchou
+Ramirez, Alejandro
+Stukopin, Andrey
+Kaidanov, Gregory
+Holt, Conrad
+Steingrimsson, Hedinn
+Indjic, Aleksandar
+Xiong, Jeffery
+Huschenbeth, Niclas
+Hernandez, Holden
+Chirila, Ioan Cristian
+Troff, Kayden
+Stopa, Jacek
+Tazbir, Marcin
+Jakubiec, Artur
+Sevian, Samuel
+Popilski, Gil
+Ivanov, Alexander
+Rombaldoni, Axel
+Berczes, David
+Kadric, Denis
+Raznikov, Dani
+Pakleza, Zbigniew
+Subramanian, Arun Prasad
+Gallagher, Joseph
+Zapata, Alonso
+Skorchenko, Dmitry
+Fishbein, Alexander
+Kjartansson, Gudmundur
+Boros, Denes
+Drozdowski, Kacper
+Barcenilla, Rogelio,Jr
+Gurevich, Daniel
+Kannappan, Priyadharshan
+Bartholomew, John
+Javakhadze, Zurabi
+Li, Ruifeng
+Salinas Herrera, Pablo
+Rodrigues Quintiliano Pinto, Renato
+Norowitz, Yaacov
+Korley, Kassa
+Sheng, Joshua
+Viswanadha, Kesav
+Aldama, Dionisio
+De Guzman, Ricardo
+Meinhardt, Maximilian
+Milovanovic, Rade
+Kalikshteyn, Alex
+Coleman, Teddy
+Garcia, Gildardo
+Mandizha, Farai
+Herman, Matthew
+Sorkin, Igor
+Rensch, Daniel
+Luukkonen, Tommi
+Gergacz, Attila
+Colmenares, Aurelio
+Shankar, Gauri
+Brendel, Oliver
+Burnett, Ronald
+Yang, Kaiqi
+Colas, Joshua
+Shneider, Igor
+Kavutskiy, Konstantin
+Gulamali, Kazim
+Krishnan, Varun
+Sarwer, Jeff
+Bunyatov, Rustam
+Nasri, Amin
+Liang, Awonder
+Inants, Aghasi
+Hernandez, Alberto
+Zhang, Xiaopeng
+Wang, Qibiao
+Sanchez Saez, Francisco
+Kniest, Oliver
+Boekhoff, Andrew
+Rojas, Eduardo
+Johnson, Leonard
+Ghatti, Sanjay
+Panchanatham, Vignesh
+Dominguez, Jose Manuel
+Sturt, Raven
+Stewart, William
+Boor, Carl
+Olubunmi, Olape
+Liu, Elliott
+Dehmelt, Karl
+Oatlhotse, Providence
+Menna Barreto, Felipe
+Karatorossian, David
+Aramil, William
+Estay Torreblanca, Oscar
+Kunche, Nikhilesh Kumar
+Yanayt, Eugene
+Wanyama, Harold
+Belakovskaia, Anjelina
+Salimbagat, Rico
+Carreto, Giovanni
+Balogun, Oluwafemi
+Sinanan, Josh
+Melekhina, Alisa
+Kryvoruchko, Vita
+Dungca, Ryan
+Hilby, Craig
+Harriott, Tyrell
+Gershenov, Benjamin
+Kashebayev, Azamat
+Anwuli, Daniel
+Rodrigo, Pinto Henriquez
+Wall, Brian
+Rom, Jasper
+Furman, Leonid
+Braunlich, Tom
+Mezhlumyan, Vahram
+Eveleens, Wim
+Karamsetty, Jeevan
+Zaloznyy, Mike
+Vela, Norberto
+Myers, Dominique
+Curcuru, John
+Githoro, Mbugua
+Remetic, Velimir
+Bloomer, Joshua
+Vishwanath, Vinod
+Bauza Mercere, Eduardo
+Passos, Joel Bercário Dos
+Sosa, Grey
+Singh, Ajay Pal
+O'Brien, Matthew
+Lopez, Joshua
+Manapuram, Eswar Prasad
+Zargaryan, Edvard
+Canty, James
+Akingbade, Oluwagbemiga
+Worden, Coy
+Watson, Timothy
+Thompkins, Ben
+Kind, Michael
+Del Castillo, William
+Ghandi, Houshyar
+Lima, Tiago Lacerda
+Tedesco, Matthew
+
+Moon, Benjamin
+Rueda, Libardo
+Peterson, Christofer
+Zinski, Maximilian
+Khatena, Moshe
+Dondon, Josito
+Butros, Ryan
+Feliachi, Nabil
+Mahoney, Michael
+Kis, Lorand
+Rodriguez, Rafael
+Kim, Wan
+Tan, Oscar
+Lebovitz, Andrew
+Odeh, Kenneth
+Roa Neira, Ivan
+Iinuma, Paul
+Gottehrer, Jonathan
+Lokhov, Anton
+Quintanar, Sam
+Stevens, Matthew
+Keller, Jeremy
+Uzzaman, Ashik
+Salomon, Brian
+Flores, Andrew
+Layevskiy, Michael
+Wolfley, Lawrence
+Malazarte, Ernest
+Lampman, Becca
+Oen, Grant
+Metzger, James
+Imamovic, Semir
+Murphy, Jones
+Reyes, Virgilio
+Burns, Randas
+Rosell, John
+Fan, Zheyuan
+Guo, Arthur
+Tari, Hafez
+Dykes, Denton J
+Calderon, Rafael
+Shabazz, Daaim			 
+Phillips, Ryan
+Belmont, Andres
+Ballantyne, Rochelle
+Marshall, Mario
+Scarlett, Roderick
+Cavallo, Michael
+Mundy, Jim
+Kiwan, Saleem
+Sevilla, Fernando
+Blessing, Anthony
+Nesamani, Vigneshwaran
+Yoo, Christopher
+Allen, Jonathan
+Sobh, Hassan
+Landshoff Farah, Daniel
+Williams, Abiye
+Rosenberg, Menachem
+Blanco, Maria Carolina
+Pestic, Goran
+Wenzel, Birger
+Obiamiwe, Paul
+Anderson, Michael
+Bromberg, Joshua
+Suriyagoda , Nuwan
+Adekola, Aderemi
+Santos Jr, Catalino
+Villar, Jose
+Cassidy, Ryan
+Navas, Nelson
+Lorne, Ras Malaku
+Van Hove, Paulo
+Nwoye, Nnamdi
+Solorio, Noe
+P P, Prachura
+Torres, Mario
+Rebolledo Arias, Julio
+Sidi, Boydia
+Dinesh Kumar, Gunasekaran
+Zinnai, Graziano Matteo
+Yu, Wenlu
+Gross, Willi
+Arosemena, Franklin
+Ilic, Ilija
+Boff, André Ricardo
+Armonaitis, Silvestras
+Duggal, Karun
+Dasaolu, Rotimi
+Fezza, Davide
+Nyamdorj, Davaa-Ochir
+Di Michele, Rocco
+
+Landshoff Storch, Debora
+Willis, Richard
+Li, Zhiji
+Williams, Nicholas
+White, Wesley
+Sevilla, Julia
+Silvestre, Alex
+Wiener, Alexandra
+Cunningham, Omar
+Barnes, Courtney
+Tafalla, Gabriel
+Barruel, Ian
+Rozenblatt, Daniel
+Zamora, Alexis
+Beatty, Robert
+Agee, Larry
+Hall, Alex
+Zulic, Jasmin
+Miller, Steven
+Forney, Robert
+Griggs, Scott
+Krishnan, Aadarsh
+Fernandez, Kenneth
+Higgins, Michael
+Hosford, Michael
+Gong, Boyi
+Onyango, Adia
+McNeill, Gordon
+Nguyen, Dan
+Baligad, John Paul
+Zebrowski, Bill
+Aregbeyen, Aigboje
+Tesorero, John Terence
+Ochoa, Jason
+Romero, Jonah
+Baez, Alexander
+Ballom, Stephanie
+Browne, Andrew
+Sarafian, Greg			  
+Ravuri, Vinesh
+Martinez, Lawrence
+Abarca, Jose
+Aristizabal, Jorge
+Singh, Ranjeet
+Ensey, Charles
+Pollitt, James
+Brennan, Timothy
+Kircher, Caleb
+Christiansen, Natasha
+Thomas, Rodney
+Tjokrosurjo, Omega
+Venkatasubba, Krishna
+Geraldo, Lisandro
+Apiri, James
+Garcia, Carlos
+Davis Sr, Bruce R
+Hori, Calvin
+Pao, Lucas
+Poling, Scott
+Kaleem, Faisal
+Nouri, Alekhine
+Landingin, Jofrel
+Farmer, Stephen Howard
+Burciaga, Ruben
+Porlares, Teodoro
+Hu, Pinyi
+Tancinco, Benjamin
+Kumar, Manoj
+Dailey, Sean
+Wharry, Stephen
+Marreddy, Seetharam Reddy
+Hadzikaric, Mirsad
+Waters Sr, Vincent
+Odundo, Akollo
+Mueckenberger, Andrew
+Pedersen, Lars
+Liou, Brian
+Duke, Sherwin
+Hentges, Michael
+Daitchman, Elchonon
+Stiger, Alexandra
+Nduonyi, Moses
+Damis, Pierre
+Burrus, Don
+Severson, Jarom
+Lafornara, Joe
+Balasubramanian, Ramesh
+Poston, Donald
+Fleming, Joseph
+Chagrin, Stuart
+Al-Hariri, Saad
+Hemmat, Alexander
+Kennedy, Eric
+Walker, Powell
+Romero, Brock
+Pau, Ethan
+Ontai, Guy
+Apiri, Collins
+David, George
+Williams, Fred
+Patterson, Adrian
+Brown, Kevin
+Farinas Jr., Lorenzo
+Colbert, Terrence
+Chrysanthou, Nicholas
+Nazarinia, Shahram
+Rahman, Taraqur
+Martinez, Jonathan
+Seshadri, Sridhar
+McCann, David
+Banuelos, Pablo
+Verdiyan, Artem
+Bulleigh, Adam
+Robinson, Jack
+Mousavi, Emadeddin
+George, Lolomari
+Cheiguer, Mohamed Abdellahi
+Krishnamurthy, Ganesan
+Kumar, Saket
+Marco Francisco, Miriam
+Chhabra, Sanjay
+Dimitrijevic, Dragan
+Shtabsky, Michael
+Vucak, Mark
+Francois, Luc
+Nagpal, Vardan
+Prinz, Philipp
+Tickoo, Sahil
+Ferrari, Nicola
+Adewole, Adeyinka
+Olivier, Wlogalski
+
+
+Bird, David
+Campers, Willie
+Davydov, Neryk
+Saa, Delbert
+Nesamani, Srihari
+Rimpel, Louis
+Petrov, Oscar
+Bannon, Brian
+Olsen-Mills, Jamie
+Castillo Martinez, Jose Angel
+Lewis, David
+Kaul, Sheen
+Thompson, Tony
+Lin, Mu
+Beaudry, Jon
+Juan, John
+Gough, Turner
+Kriewall, David
+Lutzke, Rick
+Acheru, Precious
+Singuillo, Immanuel
+Dumaran, Albert
+Lewis, Derrick
+Poston, Henry
+Thottakkara, Benny
+Hill, Charles
+Yang , Ryan
+Terarakelian, George
+Chanin, Chris
+Dunlap, Larry
+Kecojevic, Novica
+Dejean, Peter
+Yomtobian, David
+Anthony, Ralph
+Eisenhauer, Stephen
+Kelley, Armand
+Liu, Zhanhe
+Dimitrov, Drago
+Moody, Kenneth
+Tyau, Christopher
+Rosa, Danelson
+Lebovitz, Laurence
+Richard, Lionel
+Tanger, Schuster
+Skinner, Daryl
+Fleming, Angelo
+Sly, Douglas
+Nugent, Augie
+Ganotisi, Osias
+Sangco, John
+Horng, Timothy
+Bankhead, Benjamin
+Gonell, Cesar
+Selvam, Sanjay
+Kadavil, Suresh
+Smith, Catherine
+Changkachith, Phoenix
+Walker, Bradley
+Srinivasan, Akshay
+Powers, Leon
+McGinnis, Paul
+Pugh I, Richard
+Chen, Jonathan
+Jones, George
+Giglio, John-Derrill
+Estrada, Reinaldo
+Brown, Talmage
+Burton, Henry
+Yarur, Daniel
+Lundy, George
+Shaheen, Sameh
+Allard, Nataliya
+Wright, Yusef
+Akrami, Arash
+Remillard, John
+Mani, Subramaniam
+Aggarwal, Vaibhav
+Dushyant, Sharma
+Varma, Vikrant
+Nagaiah Sanjeevi, Bhaskar
+Mazza, Maurizio
+Grover, Ashwani Kumar
+Einarsson, Oskar Long
+Kundilakkandi , Shijil
+
+Vallens, Evan
+Piper, August
+Ray, Ralph
+Elisara, Travis
+Leong, Lester
+Boobalan, Vikraman
+Kovalkov, Dmitriy
+Brown, Keith
+Falbo, Paul
+Little, Jeff
+Bradbury, Dennis
+Heimisch, Roland
+Stephenson, Mark
+Silvestre, Christian
+Nichols, Patrick
+Terrazas, Mani
+Manikham, Sourintha
+Anand, Vignesh
+Markley, Jim
+Hudson, Orrin
+Murray, Trevin
+Bior, Kamanyola
+Yates, David
+James, Charles
+Bateman, Mark
+Fisher, Timothy
+Al Joubi, Adnan
+Dunbar, Keith
+Lunderman, Darin
+Stevens, Michael
+Muscalu, Alexandru
+Moore, Stacey
+Camarillo, Orly
+Jagmohan , Emmanuel
+Sweet, David
+Savage, Brendan
+Garate, William
+Colucci, Robert
+Tsay, David
+Abdulbasir, Abdullah
+Willoughby, Joseph
+Olea, David
+Putnam, Bill
+Collins, Jared
+Byrd, David
+Von Huene, Christian
+Karottki, Christoph
+Butenko, Anton
+Beckham, Michael
+Rudrapatna, Nagaprasad
+Bellayaru, Samarth Rao
+Johnson, Lukas
+Bodon, Hiram
+Breen, Casey
+Robinson, Devin
+Gettinger, James
+Ochoa, Marcos
+Mohanram, Athul
+Balmaceda, Ruben
+Callahan, Timothy
+Robinson, Gary
+Guild, David
+Lokhov, Sergey
+Espinosa Ramos, Juan
+Davison, Andrew
+Boyle, Michael
+Barbosa, Jonathan
+Barnett, John
+Mahajan, Rushaan
+La Budda, Michael
+Zaman, Ahyan
+Nichols, Tikila
+Neghabat, Kamran
+Mahin, Rayan
+Daniel, Patrick
+Kieu, William
+Schmonsees, Bradford
+Woolsey, Beverly
+Beeren, Lousanne
+Feng, Max
+Massoud, Yehia
+Redden, Pervis
+Rodriguez, Rigoberto
+Policarpio, Gonzalo
+Pocek, Sasa
+Edwards, Jason
+Alvarez, Lucas
+Ludwig, Kolya
+Belakovsky, Connor
+Martinez, Enoch
+Anderson, Kirk
+Bazgan, Ion
+Milener, Gene
+Prince, Lee
+Antoine, Herbert
+Bates, Jonathan
+Chen, Xin
+Pau, Suiming
+Owlett, Steven
+Glassey, Duncan
+Hegde, Nandan
+Sundaram, Gopikrishnan
+Levkin, Khasen
+Wang, Daniel
+
+Prince, John
+Thurman, Todd
+Volotzky, Joel
+Xie, Chengzhi
+Dah , Sidi Mohamed
+Anselmi, Jean-Christophe
+Anselmi, Arthur
+Cui, Xiang
+Jackson, James
+Simmons, Simitrius
+Yerman, John
+Atkinson, Dallin
+Bridger, Richard
+Bhattacharjee, Shiva
+Millington, Greg
+Bellayaru, Rajaneesh Rao
+Hemstapat, Andrew
+Robinson Jr, Leander
+Bowley, Clive
+Davis, Glenn
+Elguira, Albert
+Wang, Kai
+Scherer, Luiz Guilherme Malmmann
+Azaryan, Lusine
+Coles, Jesse

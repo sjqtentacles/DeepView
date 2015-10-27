@@ -1,0 +1,29 @@
+
+
+<link href="static/css/main.css" rel="stylesheet" type="text/css">
+
+
+<div id="header-container"></div>
+
+<div id="navbar-container"></div>
+
+<body>
+
+<div id="bodycontainer">
+
+<p>stuff</p>
+
+</div>
+
+<body>
+
+<div id="footer-container"></div>
+
+<script src="static/js/jquery.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#navbar-container").load("static/navbar.html");
+		$("#header-container").load("static/header.html");
+		$("#footer-container").load("static/footer.html");
+	});
+</script>

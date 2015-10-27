@@ -1,63 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<script src="static/js/jquery.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#navbar-container").load("static/navbar.html");
+		$("#header-container").load("static/header.html");
+		$("#footer-container").load("static/footer.html");
+	});
+</script>
 
-<style>
+<link href="static/css/main.css" rel="stylesheet" type="text/css">
 
-body{
-	margin:auto;
-	width:50%;
-	background-color:#E0E0EB;
-	}
 
-table{
-	padding:10px;
-	border:3px solid black;
-	}
+<div id="header-container"></div>
 
-table td{
-	padding:10px;
-	}
+<div id="navbar-container"></div>
 
-</style>
-
-<body>
-
-<img src='static/images/extra/cutewizard.png'>
-<img src='static/images/extra/weirdboy.png'>
-<img src='static/images/extra/cathadoken.gif'>
-<img src='static/images/extra/JFK.png'>
-<img src='static/images/extra/chess-faces.png'>
-<img src='static/images/extra/cat-brown.png'>
-
-    <h1>ELO Difference and In-Game Probability Calculator</h1>
     
+<div id="bodycontainer">
+
     <table id='main'>
     	<tr>
 			<td>
 				<p>White Elo</p>
-				<input type="text" id="whiteElo">
+				<input class="textbox" type="text" id="whiteElo">
+				<br/>
+				<button class="myButton" onclick='updateEloWinLossPerc()'>Find W/L</button>
+
 			</td>
 			<td>
 				<p>Black Elo</p>
-				<input type="text" id="blackElo">
+				<input class="textbox" type="text" id="blackElo">
+				<br/>
+				<button class="myButton" onclick='reverseValues()'>Reverse Values</button>
+
 			</td>
 			<td>
 				<p>Chess24 Engine Score</p>
-				<input type="text" id="engineScore">
-			</td>
-		</tr>
-		<tr>
-			<td>		
-				<button onclick='updateEloWinLossPerc()'>Find W/L</button>
-			</td>
+				<input class="textbox" type="text" id="engineScore">
+				<br/>
+				<button class="myButton" onclick='updateEngineScorePerc()'>In-Game %</a>
 
-			<td>
-				<button onclick='reverseValues()'>Reverse Values</button>
-			</td>
-			<td>
-				<button onclick='updateEngineScorePerc()'>In-Game %</a>
 			</td>
 		</tr>
+
 
 		<tr>
 			<td>
@@ -90,12 +74,9 @@ table td{
 	</table>
 <br/>
 
-<img src='static/images/extra/gray-cat.png'>
-<img src='static/images/extra/blue-white-chess.png'>
-<img src='static/images/extra/kitty-rolling.jpg'>
-<img src='static/images/extra/mecha-cat.png'>
+</div>
 
-</body>
+<div id="footer-container"></div>
 
 
 <script type="text/javascript">
@@ -156,10 +137,3 @@ table td{
 	initialize();
 	
 </script>
-
-<footer>
-<p><i>by Allen Sarkisyan</i></p>
-<p><i>Contact: programminglinguist@gmail.com</i></p>
-</footer>
-
-</html>
